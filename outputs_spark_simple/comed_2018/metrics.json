@@ -1,0 +1,47 @@
+{
+  "baseline": {
+    "MAE": 779.9738191679879,
+    "RMSE": 1052.9896791708888,
+    "R2": 0.867648787801268
+  },
+  "augmented": {
+    "MAE": 754.8181742174476,
+    "RMSE": 1008.8854289933292,
+    "R2": 0.8785036044731672
+  },
+  "base_features": [
+    "hour",
+    "dayofweek",
+    "month",
+    "is_weekend",
+    "lag_1",
+    "lag_24",
+    "lag_168",
+    "roll_mean_24",
+    "roll_mean_168"
+  ],
+  "aug_features": [
+    "hour",
+    "dayofweek",
+    "month",
+    "is_weekend",
+    "lag_1",
+    "lag_24",
+    "lag_168",
+    "roll_mean_24",
+    "roll_mean_168",
+    "temperature",
+    "dew_point",
+    "relative_humidity",
+    "precipitation",
+    "snow_depth",
+    "wind_speed",
+    "pressure",
+    "is_extreme_heat",
+    "is_extreme_cold"
+  ],
+  "date_range": {
+    "start_date": "2018-01-01",
+    "end_date": "2018-08-03"
+  }
+}
